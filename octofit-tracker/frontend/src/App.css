@@ -1,7 +1,7 @@
 body {
-  background-color: #f0f8ff; /* Light blue background */
-  color: #333; /* Dark text color */
-  font-family: 'Roboto', sans-serif;
+  background-color: #ffe4e1; /* Light pink background */
+  color: #5a5a5a; /* Soft gray text */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,58 +13,55 @@ body {
 .App-logo {
   height: 50px;
   margin-right: 20px;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #4682b4; /* Steel blue */
-  color: white;
+  background-color: #ffb6c1; /* Light pink */
+  color: #ffffff; /* White text */
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 5px solid #ff69b4; /* Hot pink border */
   font-size: calc(10px + 2vmin);
 }
 
 nav {
-  background-color: #2b6cb0; /* Dark blue */
+  background-color: #ffb6c1; /* Light pink */
   padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-  color: #f0f8ff; /* Light blue text */
+  color: #ffffff; /* White text */
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 nav a:hover {
-  color: #ffeb3b; /* Yellow */
+  color: #ff69b4; /* Hot pink */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2b6cb0; /* Dark blue */
+  color: #ff69b4; /* Hot pink */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 button {
-  background-color: #4682b4; /* Steel blue */
+  background-color: #ffb6c1; /* Light pink */
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 button:hover {
-  background-color: #5a9bd4; /* Lighter blue */
+  background-color: #ff69b4; /* Hot pink */
 }
 
 table {
@@ -72,30 +69,50 @@ table {
   border-collapse: collapse;
   margin: 20px 0;
   background-color: #ffffff; /* White background */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 table th, table td {
-  border: 1px solid #ddd;
+  border: 2px solid #ffb6c1; /* Thicker light pink border */
   padding: 10px;
   text-align: left;
 }
 
 table th {
-  background-color: #4682b4; /* Steel blue */
+  background-color: #ff69b4; /* Hot pink */
   color: white;
 }
 
 table tr:nth-child(even) {
-  background-color: #f0f8ff; /* Light blue */
+  background-color: #ffe4e1; /* Light pink */
 }
 
 table tr:hover {
-  background-color: #e0ffff; /* Light cyan */
+  background-color: #ffb6c1; /* Light pink hover */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff69b4; /* Hot pink */
+  text-decoration: underline;
+}
+
+.App-link:hover {
+  color: #ffb6c1; /* Light pink */
+}
+
+.card {
+  background-color: #ffffff; /* White background */
+  border: 2px solid #ffb6c1; /* Light pink border */
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card-title {
+  color: #ff69b4; /* Hot pink */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 @keyframes App-logo-spin {
