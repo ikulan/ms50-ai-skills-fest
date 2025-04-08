@@ -6,7 +6,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = request.build_absolute_uri('/')
+    base_url = "https://supreme-robot-jjr4rx9x964f5rp7-8000.app.github.dev/"
     return Response({
         'users': f'{base_url}api/users/',
         'teams': f'{base_url}api/teams/',
